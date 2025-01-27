@@ -1,6 +1,6 @@
 package org.example;
 
-public class Burger implements Food{
+public class Burger implements Food {
     String name ;
     double price;
 
@@ -35,5 +35,12 @@ public class Burger implements Food{
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public static interface Food {
+        String getName();
+        double getPrice();
+
+        String getDescription();
     }
 }

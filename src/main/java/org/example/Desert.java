@@ -1,13 +1,14 @@
 package org.example;
 
-public class desert implements Food{
+public class Desert implements Food {
     String name;
 
     double price;
 
     String description;
 
-    public desert(String name, double price, String description) {
+
+    public Desert(String name, double price, String description) {
         this.name = name;
         this.price = price;
         this.description = description;
